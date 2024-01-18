@@ -1,0 +1,260 @@
+.sasasasasak {
+  color: black;
+}
+
+.firstcontainer {
+  background-color: aliceblue;
+  text-align: center;
+}
+.head1 {
+  text-align: center;
+  font-style: italic;
+  color: orange;
+  font-family: serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+.shopbtn {
+  background-color: orange;
+  color: black;
+  border-style: hidden;
+  border-radius: 2px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.shopbtn:hover {
+  /* transform: translateX(background-color ); */
+  background-color: rgb(173, 173, 242);
+  box-shadow: 0px 0px 10px rgb(241, 241, 187);
+  font-style: italic;
+  color: rgb(2, 2, 1);
+
+}
+
+.para {
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+  width: 100%;
+
+}
+
+.head2 {
+  text-align: center;
+  color: hwb(0 18% 82%);
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+
+}
+
+.card {
+  border: none;
+  cursor: pointer;
+}
+
+.paragraph {
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+  font-size: x-small;
+  margin-top: 5px;
+  padding: 5px;
+  display: ruby-text-container;
+  background-color: rgb(233, 69, 69);
+  color: whitesmoke;
+  position: absolute;
+  align-items: right;
+  margin-left: 10px;
+  width: 40px;
+  text-align: center;
+}
+
+.paragraph23 {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  font-size: small;
+  margin-top: 5px;
+  padding: 7px;
+  display: ruby-text-container;
+  background-color: #e94545;
+  color: whitesmoke;
+  position: absolute;
+  align-items: right;
+  margin-left: 10px;
+}
+.card-title{
+  font-size: small;
+}
+.card-text{
+  font-size: 13px;
+}
+.head21{
+  color: hwb(0 18% 82%);
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagediv{
+  box-shadow: -20px -30px 1px aliceblue;
+}
+.image_head1{
+  font-size: 15px;
+  color: rgb(75, 66, 66);
+  opacity: 2;
+}
+.jspara{
+  text-align: center;
+  color: #62b465;
+  font-size: 13px;
+  
+}
+.jshead{
+  text-align: center;
+  color: rgb(68, 54, 54);
+  font-size: 30px;
+}
+ .gradient-button {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: whitesmoke;
+  cursor: pointer;
+  border: 1px solid black;
+  outline: none;
+  background: linear-gradient(to right, #000000, #ce0909); 
+  background-size: 200% 100%; 
+  transition: background-position 0.3s;
+}
+
+.gradient-button:hover {
+  color: whitesmoke;
+  background-position: -100% 0; 
+}
+
+
+.maindivconatiner{
+background-color: aliceblue;
+}
+.mainfile_div{
+  background-color: aliceblue;
+}
+.maindivconatiner{
+  display: flex;
+  justify-content: space-around;
+}
+.arrow_color{
+  color: black;
+}
+
+.arrow_color2{
+  color: black;
+}
+.footer_color{
+  background-color: aliceblue;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-section {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-section {
+    flex: 1 1 100%;
+  }
+
+  .social-icons {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+    color: black;
+  }
+}
+
+
+.footerpara{
+  color: rgb(177, 144, 144);
+}
+.icons{
+  color: rgb(177, 144, 144);
+
+}
+.icon{
+  text-decoration: none;
+  color: rgb(193, 162, 162);
+}
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(233, 239, 247);
+  font-size: medium;
+  color: rgb(177, 144, 144);
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.last_para{
+  color: rgb(109, 80, 80);
+}
+.last_inp2{
+  font-size: small;
+  padding-bottom: 10px; 
+  background-color: aliceblue;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgb(93, 14, 14);
+}
+
+.last_inp{
+  font-size: small;
+  background-color: aliceblue;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom:none;
+}
